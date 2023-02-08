@@ -1,0 +1,415 @@
+body{
+    padding: 0 2px;
+    margin: 0px;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFA01F;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.blue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 60px;
+}
+section{
+    background-image: url(image/IMG_2437.JPG);
+    height: 500px;
+}
+
+nav .photo .image{
+    display: flex;
+    justify-content: center;
+}
+nav .photo .icone-phone{
+   display: flex;
+}
+nav .photo .icone-message{
+   display: flex;
+}
+span{
+    margin-top: 40px;
+    width: 30px;
+}
+button{
+    float: right;
+    margin-right: 190px;
+    margin-top: 80px;
+    background-color: #FFA01F;
+    height: 40px;
+    color: white;
+    width: 150px;
+    border: #FFA01F;
+    margin-top: 15px;
+}
+.profil{
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 300px;
+}
+.profil img{
+    width:200px;
+    height: 200px;
+    margin-top: -100px;
+    border-radius: 100%;
+    margin-left: 245px;
+}
+.icones{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.fab{
+    border-radius: 100%;
+    background-color: grey;
+    width: 25px;
+    height: 25px;
+}
+.fille{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+ width: 50px;
+ /* margin-left: 100px; */
+ margin-top: 100px;
+}
+hr{
+    width: 50px;
+    margin-left: 100px;
+    height: 10px;
+    border-color: #FFA01F;
+    background-color: #FFA01F;
+    border-radius: 25%;
+    margin-top: 15px;
+
+}
+.propre{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pole{
+    margin-right: 100px;
+    display: flex;
+   justify-content: space-around;
+    float: right;
+    align-items: center;
+}
+.parent{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 400px;
+}
+.colonne1{
+  width: 30%;
+  height: 1000px;
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sous-colonne1{
+    width: 100%;
+     height: 20%;
+}
+.sous-colonne2{
+    width: 100%;
+    height: 20%;
+     display: flex;
+     justify-content: space-between;
+    flex-direction: row;
+
+}
+.sous1, .sous2{
+    width: 48%;
+          
+}
+
+          
+.sous-colonne3{
+    width: 100%;
+    height: 56%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.colonne2{
+    width: 30%;
+   height: 1000px;
+   display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  
+}
+.colonne12{
+  width: 30%;
+  height: 1000px;
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sous-colonne12{
+    width: 100%;
+     height: 20%;
+}
+.sous-colonne22{
+    width: 100%;
+    height: 20%;
+     display: flex;
+     justify-content: space-between;
+    flex-direction: row;
+
+}
+.sous12, .sous22{
+    width: 48%;
+          
+}
+
+          
+.sous-colonne32{
+    width: 100%;
+    height: 56%;
+}
+
+.colonne3{
+  width: 30%;
+  height: 1000px;
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sous-colonne13{
+    width: 100%;
+     height: 20%;
+}
+.sous-colonne23{
+    width: 100%;
+    height: 20%;
+     display: flex;
+     justify-content: space-between;
+    flex-direction: row;
+
+}
+
+       
+.sous-colonne33{
+    width: 100%;
+    height: 56%;
+}
+
+.groupe{
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.probleme{
+    display: flex;
+    width: 10px;
+    height: 100px;
+}
+.programme{
+    display: flex;
+    width: 10px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    align-items: center;
+
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.section hr{
+    margin-left: 5px;
+}
+
+.section2{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+}
+.section2 hr{
+    margin-left: 5px;
+}
+h3{
+   color: #FFA01F;
+}
+h4{
+    color: #FFA01F;
+}
+P{
+    color: white;
+}
+.liste li{
+    color: white;
+}
+.section3{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.section3 hr{
+    margin-left: 5px;
+}
+.liste2 li{
+    color: black
+}
+P{
+    color: black;
+}
+
+.section4{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid #333;
+}
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  color: gray;
+  border-radius: 8px;
+  max-width: 400px;
+}
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bloc{
+    display: flex;
+    justify-content: space-around;
+}
+.fleure{
+    background-color: orchid;
+    width: 100%;
+    height: 100px;
+    margin-top: -15px;
+    text-align: center;
+    line-height: 120px;
+ 
+
+}
+.parle{
+    display: flex;
+    /* justify-content: space-around; */
+   
+}
+
+.-wrap {
+  margin: 150px auto;
+  width: 150px;
+  height: 150px;
+  background: #fefcff;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+  
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .inside-circle {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  background: white;
+  line-height: 120px;
+  text-align: center;
+  margin-top: 14px;
+  margin-left: 14px;
+  color: #1e51dc;
+  position: relative;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+  float: right;
+  /* margin-right: 900px; */
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+
+/* color animation */
+
+/* 3rd progress bar */
+.mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #FFA01F;
+}
+
+.mask.full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
+@keyframes fill{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}
+
+
+
+
+    
+ 
